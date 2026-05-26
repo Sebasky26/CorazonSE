@@ -22,7 +22,7 @@ detailButton.addEventListener("click", () => {
 
 saveButton.addEventListener("click", async () => {
   const text =
-    "Mi corazon guarda un lugar bonito para ti. Gracias por ser una luz tranquila en mis dias.";
+    "Mi chiquita, eres muy importante para mi. Te quiero mucho y queria dejarte este mensajito bonito.";
 
   try {
     await navigator.clipboard.writeText(text);
